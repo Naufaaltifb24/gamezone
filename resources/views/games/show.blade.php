@@ -8,7 +8,7 @@
         <div class="row g-0">
             @if ($game->gambar)
     <div class="col-md-4">
-        <img src="{{ asset('storage/games/' . $game->gambar) }}" class="img-fluid rounded-start" alt="{{ $game->judul }}">
+        <img src="{{ asset('storage/app/public/games/' . $game->gambar) }}" class="img-fluid rounded-start" alt="{{ $game->judul }}">
     </div>
 @endif
             <div class="col-md-8">

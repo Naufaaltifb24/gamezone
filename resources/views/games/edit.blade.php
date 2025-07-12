@@ -49,7 +49,7 @@
             <label class="form-label">Gambar Game</label>
             @if ($game->gambar)
                 <div class="mb-2">
-                    <img src="{{ asset('storage/games/' . $game->gambar) }}" width="100" class="img-thumbnail">
+                    <img src="{{ asset('storage/app/public/games/' . $game->gambar) }}" width="100" class="img-thumbnail">
                 </div>
             @endif
             <input type="file" name="gambar" class="form-control">

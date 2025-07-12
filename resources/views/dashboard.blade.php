@@ -20,7 +20,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-4 text-center">
                                 @if($game->gambar)
-                                    <img src="{{ asset('storage/games/' . $game->gambar) }}" class="img-fluid rounded" style="max-height: 250px;" alt="{{ $game->judul }}">
+                                    <img src="{{ asset('storage/app/public/games/' . $game->gambar) }}" class="img-fluid rounded" style="max-height: 250px;" alt="{{ $game->judul }}">
                                 @else
                                     <img src="https://via.placeholder.com/300x250?text=No+Image" class="img-fluid rounded" alt="No Image">
                                 @endif
