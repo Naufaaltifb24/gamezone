@@ -30,7 +30,7 @@
                         <td>{{ $loop->iteration + ($games->currentPage() - 1) * $games->perPage() }}</td>
                         <td>
                             @if($game->gambar)
-                                <img src="{{ asset('storage/games/' . $game->gambar) }}" width="60" alt="Gambar Game">
+                                <img src="{{ asset('storage/app/public/games/' . $game->gambar) }}" width="60" alt="Gambar Game">
                             @else
                                 <span class="text-muted">-</span>
                             @endif
