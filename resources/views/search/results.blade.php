@@ -35,7 +35,7 @@
                             <tr>
                                 <td>
                                     @if ($game->gambar)
-                                        <img src="{{ asset('storage/games/' . $game->gambar) }}" alt="{{ $game->judul }}" width="80">
+                                        <img src="{{ asset('storage/app/public/games/' . $game->gambar) }}" alt="{{ $game->judul }}" width="80">
                                     @else
                                         <span class="text-muted">-</span>
                                     @endif
